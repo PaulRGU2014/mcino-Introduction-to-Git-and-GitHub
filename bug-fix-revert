@@ -1,16 +1,22 @@
-curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/6551 | grep -E "\"html_url\"|\"state\"|\"head\"|\"base\"|\"full_name\"|\"fork\""
+curl -s https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/6551 | grep -E "\"html_url\"|\"state\"|\"full_name\"|\"fork\""
   "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pull/6551",
   "state": "closed",
     "html_url": "https://github.com/PaulRGU2014",
-  "head": {
       "html_url": "https://github.com/PaulRGU2014",
-      "full_name": "PaulRGU2014/mcino-Introduction-to-Git-and-GitHub",
+      "full_name": "PaulRGU2014/github-final-project",
         "html_url": "https://github.com/PaulRGU2014",
-      "html_url": "https://github.com/PaulRGU2014/mcino-Introduction-to-Git-and-GitHub",
+      "html_url": "https://github.com/PaulRGU2014/github-final-project",
       "fork": true,
-  "base": {
       "html_url": "https://github.com/ibm-developer-skills-network",
       "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
         "html_url": "https://github.com/ibm-developer-skills-network",
       "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
       "fork": false,
+
+curl -s https://api.github.com/repos/PaulRGU2014/github-final-project | grep -E "\"full_name\"|\"fork\"|\"parent\""
+  "full_name": "PaulRGU2014/github-final-project"
+  "fork": true
+  "parent": {
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+    "name": "mcino-Introduction-to-Git-and-GitHub"
+  }
